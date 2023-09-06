@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "create:keypair": "ts-node ./src/signer.ts"
+    "create:keypair": "ts-node ./src/signer.ts",
+    "create:sign:vc": "ts-node ./src/create-and-sign-vc.ts"
   },
   "author": "",
   "license": "ISC",
