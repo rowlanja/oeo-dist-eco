@@ -1,0 +1,18 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1"
+  ],
+  "credentialSubject": {
+    "id": "did:ethr:null:0xd5e7363d32279337b0D8ED7a144F84873A6eE283",
+    "name": "Jessie Doe"
+  },
+  "issuer": {
+    "id": "did:ethr:null:0x5D549a6BDE18d3d3301Dc621729395bf95C20E6b"
+  },
+  "type": [
+    "VerifiableCredential",
+    "PROOF_OF_NAME"
+  ],
+  "issuanceDate": "2023-09-08T18:17:27.000Z",
+  "id": "did:ethr:null:0x02e9c0A520c9287193AEfb667b548eDf7a957B70"
+}

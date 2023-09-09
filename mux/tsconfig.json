@@ -1,11 +1,19 @@
 {
-    "compilerOptions": {
-      "module": "commonjs",
-      "esModuleInterop": true,
-      "target": "es6",
-      "moduleResolution": "node",
-      "sourceMap": true,
-      "outDir": "dist"
-    },
-    "lib": ["es2015"]
+  "compilerOptions": {
+    "module": "commonjs",
+    "baseUrl": "./",
+    "outDir": "build",
+    "target": "es6",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "lib": ["es6"],
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": [
+    "**.ts"
+  ],
+  "exclude": [
+    "./frontend"
+  ]
 }
